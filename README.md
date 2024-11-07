@@ -33,46 +33,7 @@ Clone this repository to your local machine using the following command:
 
 ```bash
 git clone https://github.com/your-username/transaction-fraud-detection.git
-Sure! Below is the entire `README.md` template with all the instructions and project details included. You can copy and paste this directly into your `README.md` file.
-
-```markdown
-# Transaction Fraud Detection with Machine Learning
-
-## Project Description
-
-This is a Python-based fintech application that integrates machine learning algorithms to detect fraudulent transactions. The application ensures data security by implementing secure hashing techniques such as SHA-256 for maintaining data integrity.
-
-- **Machine Learning Integration**: The project leverages PyTorch to develop a machine learning model for detecting fraud in real-time transaction data.
-- **Secure Data Handling**: Sensitive financial information is processed and encrypted using SHA-256 hashing techniques, ensuring the integrity and confidentiality of transaction data.
-- **Problem-Solving Focus**: The application employs problem-solving skills to design a robust transaction verification system, accurately identifying fraudulent activities and maintaining financial safety.
-- **Real-Time Transaction Analysis**: The system allows for real-time analysis of transaction data, providing predictions on whether a transaction is legitimate or fraudulent.
-
-## Features
-- **Machine Learning Model**: Utilizes PyTorch for detecting fraudulent transactions based on transaction attributes such as amount, location, merchant, and transaction type (credit/debit).
-- **Data Integrity**: Uses SHA-256 for hashing transaction details to maintain data integrity and prevent tampering.
-- **Web Interface**: The application provides a simple web form where users can submit transaction data to check if the transaction is fraudulent or legitimate.
-- **Flask Backend**: Flask serves as the backend framework to handle requests and run the machine learning model.
-
-## Technologies Used
-- **Python**: Programming language used for the application.
-- **Flask**: Web framework used for serving the frontend and backend.
-- **PyTorch**: Deep learning framework used for building the machine learning model.
-- **SHA-256**: Cryptographic hashing technique used for data integrity.
-- **HTML/CSS/JavaScript**: Frontend technologies used to build the user interface.
-
-## Clone and Run the Project Locally
-
-Follow the steps below to clone and run this project on your local machine:
-
-### 1. Clone the Repository
-
-Clone this repository to your local machine using the following command:
-
-```bash
-git clone https://github.com/your-username/transaction-fraud-detection.git
 ```
-
-Replace `your-username` with your actual GitHub username.
 
 ### 2. Navigate to the Project Directory
 
