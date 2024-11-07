@@ -272,6 +272,7 @@ if __name__ == "__main__":
     cm = confusion_matrix(y_true, y_pred)
     print("Confusion Matrix:")
     print(cm)
+    #plt measures
     plt.figure(figsize=(6,6))
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
     plt.title('Confusion Matrix')

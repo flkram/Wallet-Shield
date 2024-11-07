@@ -8,6 +8,7 @@ def preprocess_transaction(data):
         float(data.get("merchant", 0)),  # Merchant score (e.g., known fraud risk)
         # Add other features as needed...
     ]
+    
     # Padding the data to match model's input size
     while len(transaction_data) < 10:
         transaction_data.append(0.0)  # Padding with zeros if needed
